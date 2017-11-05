@@ -5,4 +5,5 @@
 [alias]
     st = status
     ci = commit -v
-    lol = log --graph --all
+    ssl = log --graph --all
+    sl = log --graph --all --oneline
