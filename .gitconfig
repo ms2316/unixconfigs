@@ -1,4 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
-name = Mihails Smolins
-email = mikhail.smolins@gmail.com
+    name = Mihails Smolins
+    email = mikhail.smolins@gmail.com
+[alias]
+    st = status
+    ci = commit -v
+    lol = log --graph --all
