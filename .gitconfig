@@ -7,3 +7,5 @@
     ci = commit -v
     ssl = log --graph --all
     sl = log --graph --all --oneline
+    co = checkout
+    br = branch
