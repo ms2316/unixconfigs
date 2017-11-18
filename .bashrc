@@ -33,6 +33,9 @@ function setup_aliases {
 
     # gcp is a coreutils version of 'cp' for macOS installed with 'brew install coreutils'
     alias cp="gcp -i"
+
+    # make grep output coloured
+    alias grep="grep --colour=always -s"
 }
 
 customize_prompt
