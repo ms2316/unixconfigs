@@ -35,7 +35,7 @@ function setup_aliases {
     alias cp="gcp -i"
 
     # make grep output coloured
-    alias grep="grep --colour=always -s"
+    alias grep="grep -s --colour=always"
 }
 
 customize_prompt

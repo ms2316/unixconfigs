@@ -20,5 +20,8 @@ set cursorline
 set showcmd
 filetype plugin indent on
 
+" Show current line and column
+set ruler
+
 " Searching
 set incsearch
